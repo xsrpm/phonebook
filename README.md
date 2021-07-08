@@ -15,4 +15,21 @@ https://github.com/mars/heroku-cra-node (placing both backend and frontend code 
 Requiere de un build actualizado del frontend en la raiz del proyecto: frontend-nodejs/phonebook-react
 
 Link to online app:
+https://lit-taiga-49599.herokuapp.com/
+Link to online api:
 https://lit-taiga-49599.herokuapp.com/api/persons
+
+MongoDB
+https://www.mongodb.com/
+https://docs.mongodb.com/manual/core/databases-and-collections/
+https://docs.mongodb.com/manual/core/document/
+https://www.mongodb.com/es/cloud/atlas
+http://mongoosejs.com/index.html
+https://docs.mongodb.com/manual/reference/operator/
+https://mongoosejs.com/docs/api.html
+
+Add a person to the collection
+node mongo.js <password> cesar 1234567
+
+List collection of people
+node mongo.js <password>
