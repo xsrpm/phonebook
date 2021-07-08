@@ -9,6 +9,7 @@ const {
   savePerson,
   deletePerson,
   updatedPerson,
+  getPersonInfo,
 } = require('./models/person');
 
 const app = express();
@@ -27,6 +28,12 @@ app.get('/', (request, response) => {
 app.get('/api/persons', (request, response) => {
   getAllPersons().then(personas => {
     response.json(personas);
+  });
+});
+
+app.get('/api/info', (request, response) => {
+  getPersonInfo().then(res => {
+    response.send(res);
   });
 });
 
@@ -65,22 +72,6 @@ app.post('/api/persons/', (request, response) => {
 });
 
 app.put('/api/persons/:id', (request, response, next) => {
-  /*
-  const id = Number(request.params.id);
-  const body = request.body;
-  body.id = id;
-  console.log(body);
-
-  
-  personas = personas.map(persona => {
-    if (persona.id !== id) return persona;
-    else {
-      console.log(body);
-      return body;
-    }
-  });
-  response.status(202).json(body);
-*/
   const body = request.body;
 
   updatedPerson(body, request.params.id)

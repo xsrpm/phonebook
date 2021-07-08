@@ -37,6 +37,14 @@ const getAllPersons = () => {
     return persons;
   });
 };
+
+const getPersonInfo = () => {
+  return Person.find({}).then(persons => {
+    return `<p>Phonebook has info for ${persons.length} people</p>
+    <p>${new Date(Date.now()).toString()}</p>`;
+  });
+};
+
 const getOnePerson = id => {
   return Person.findById(id).then(person => {
     return person;
@@ -71,4 +79,5 @@ module.exports = {
   savePerson,
   deletePerson,
   updatedPerson,
+  getPersonInfo,
 };
