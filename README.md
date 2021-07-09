@@ -17,6 +17,8 @@ https://www.mongodb.com/es/cloud/atlas
 http://mongoosejs.com/index.html
 https://docs.mongodb.com/manual/reference/operator/
 https://mongoosejs.com/docs/api.html
+https://mongoosejs.com/docs/validation.html
+https://github.com/blakehaswell/mongoose-unique-validator#readme
 
 Add a person to the collection
 
