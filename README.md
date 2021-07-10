@@ -1,3 +1,5 @@
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # Node.js/Express.js
 
 https://fullstackopen.com/en/part3/node_js_and_express
@@ -45,3 +47,7 @@ https://lit-taiga-49599.herokuapp.com/
 
 Link to online api:
 https://lit-taiga-49599.herokuapp.com/api/persons
+
+ESlint
+Standard
+https://standardjs.com/
