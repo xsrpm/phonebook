@@ -21,6 +21,7 @@ https://docs.mongodb.com/manual/reference/operator/
 https://mongoosejs.com/docs/api.html
 https://mongoosejs.com/docs/validation.html
 https://github.com/blakehaswell/mongoose-unique-validator#readme
+https://es.stackoverflow.com/questions/345025/mongoose-unique-validator-message-cannot-read-property-ownerdocument-of-nu
 
 Add a person to the collection
 
@@ -48,6 +49,8 @@ https://lit-taiga-49599.herokuapp.com/
 Link to online api:
 https://lit-taiga-49599.herokuapp.com/api/persons
 
+# Linter
 ESlint
+
 Standard
 https://standardjs.com/
