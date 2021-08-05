@@ -1,27 +1,51 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+# Requeriments
+You need a build of the frontend project :
+- https://github.com/xsrpm/frontend-nodejs/tree/master/phonebook-react
+
 # Node.js/Express.js
 
-https://fullstackopen.com/en/part3/node_js_and_express
-https://github.com/expressjs/morgan
+- https://fullstackopen.com/en/part3/node_js_and_express
+- https://stackoverflow.com/questions/57528518/is-it-a-bad-idea-to-use-async-await-in-a-node-express-server
+## Errors
 
+Correctly export each module created: module.exports = {}
+- https://stackoverflow.com/questions/33865068/typeerror-is-not-a-function-in-node-js
+- https://stackoverflow.com/questions/27465850/typeerror-router-use-requires-middleware-function-but-got-a-object
+
+
+## Morgan (Request Logger)
 HTTP request logger middleware for node.js
-https://stackoverflow.com/questions/51409771/logging-post-body-size-using-morgan-when-request-is-received
+- https://github.com/expressjs/morgan
+- https://stackoverflow.com/questions/51409771/logging-post-body-size-using-morgan-when-request-is-received
 
-Requiere de un build actualizado del frontend en la raiz del proyecto: frontend-nodejs/phonebook-react
+## Sentry
+Application Monitoring and Error Tracking Software
+https://sentry.io/
+
 
 # MongoDB
+- https://www.mongodb.com/
+- https://docs.mongodb.com/manual/core/databases-and-collections/
+- https://docs.mongodb.com/manual/core/document/
+- https://docs.mongodb.com/manual/reference/operator/
 
-https://www.mongodb.com/
-https://docs.mongodb.com/manual/core/databases-and-collections/
-https://docs.mongodb.com/manual/core/document/
-https://www.mongodb.com/es/cloud/atlas
-http://mongoosejs.com/index.html
-https://docs.mongodb.com/manual/reference/operator/
-https://mongoosejs.com/docs/api.html
-https://mongoosejs.com/docs/validation.html
-https://github.com/blakehaswell/mongoose-unique-validator#readme
-https://es.stackoverflow.com/questions/345025/mongoose-unique-validator-message-cannot-read-property-ownerdocument-of-nu
+## MongoDB Atlas (SAAS)
+the Cloud-Native Document Database as a Service.
+- https://www.mongodb.com/es/cloud/atlas
+
+## Robo 3T
+(formerly Robomongo) is the free, lightweight, open-source MongoDB GUI with an embedded mongo shell, real auto-completion, and support for MongoDB 4.0.
+- https://robomongo.org/
+
+## Mongoose
+elegant mongodb object modeling for node.js
+- http://mongoosejs.com/index.html
+- https://mongoosejs.com/docs/api.html
+- https://mongoosejs.com/docs/validation.html
+- https://github.com/blakehaswell/mongoose-unique-validator#readme
+- https://es.stackoverflow.com/questions/345025/mongoose-unique-validator-message-cannot-read-property-ownerdocument-of-nu
 
 Add a person to the collection
 
@@ -54,3 +78,4 @@ ESlint
 
 Standard
 https://standardjs.com/
+
