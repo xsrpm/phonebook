@@ -18,8 +18,9 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true,
   })
 
 app.use(cors())
-app.use(express.static('build'))
 app.use(express.json())
+app.use(express.static('../web/build'))
+
 app.use(requestLogger)
 
 app.use('/api/persons', personRouter)
